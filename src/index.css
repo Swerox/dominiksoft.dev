@@ -6,3 +6,10 @@
 :root {
   font-family: "Ubuntu", sans-serif; 
 }
+
+.Typewriter__cursor {
+  color: #ffffff; /* Cursor-Farbe (z. B. Weiß) */
+  font-weight: bold;
+  font-size: inherit; /* Gleiche Größe wie der Text */
+  animation: blink 1s step-end infinite;
+}
