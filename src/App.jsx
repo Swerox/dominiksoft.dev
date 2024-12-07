@@ -1,6 +1,6 @@
 import Hero from "./components/Hero";
 import About from "./components/About";
-import Contact from "./components/contact";
+import Contact from "./components/Contact";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Impressum from "./components/Impressum";
 import Datenschutz from "./components/Datenschutz";
