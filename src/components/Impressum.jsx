@@ -31,7 +31,7 @@ const Impressum = () => {
                 <br />
                 85092 Kösching
                 <br />
-                <a href="mailto:mail@iamdominik.dev">mail@iamdominik.dev</a>
+                <a href="mailto:mail@iamdominik.dev">mail@dominiksoft.dev</a>
                 <br />
                 (+49) 01525 1010670
               </p>
