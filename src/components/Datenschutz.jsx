@@ -4,28 +4,29 @@ const Datenschutz = () => {
   const handleGoHome = () => {
     window.location.href = "/";
   };
+
   return (
-    <div className="min-h-screen lg:mb-35 px-20 py-20">
+    <div className="min-h-screen px-6 py-6 lg:px-20 lg:py-20">
       <div className="flex flex-col h-full">
         <div className="w-full">
-          <nav className="mb-20 flex items-center justify-between px-6 py-6">
-            <div className="text-3xl">
-              <button onClick={handleGoHome} className="text-3xl">
+          <nav className="mb-10 flex items-center justify-between px-6 py-4">
+            <div className="text-xl sm:text-3xl">
+              <button onClick={handleGoHome} className="text-xl sm:text-3xl">
                 dominiksoft.dev
               </button>
             </div>
           </nav>
 
-          <h1 className="my-20 text-center text-4xl pt-11 font-semibold">
+          <h1 className="my-12 text-center text-3xl sm:text-4xl font-semibold">
             Datenschutzerklärung
           </h1>
 
-          <div className="px-6">
-            <section className="mb-12">
-              <h2 className="text-2xl font-bold mb-4">
+          <div className="px-4 sm:px-6">
+            <section className="mb-8">
+              <h2 className="text-xl sm:text-2xl font-bold mb-4">
                 1. Allgemeine Hinweise
               </h2>
-              <p>
+              <p className="text-sm sm:text-base">
                 Der Schutz Ihrer persönlichen Daten ist uns wichtig. Wir
                 behandeln Ihre personenbezogenen Daten vertraulich und
                 entsprechend der gesetzlichen Datenschutzvorschriften sowie
@@ -33,19 +34,19 @@ const Datenschutz = () => {
               </p>
             </section>
 
-            <section className="mb-12">
-              <h2 className="text-2xl font-bold mb-4">2. Verantwortlicher</h2>
-              <p>
+            <section className="mb-8">
+              <h2 className="text-xl sm:text-2xl font-bold mb-4">2. Verantwortlicher</h2>
+              <p className="text-sm sm:text-base">
                 Verantwortlich für die Datenverarbeitung ist: Dominik Dittrich
                 Lentinger Straße 14A 85092 Kösching mail@dominiksoft.dev
               </p>
             </section>
 
-            <section className="mb-12">
-              <h2 className="text-2xl font-bold mb-4">
+            <section className="mb-8">
+              <h2 className="text-xl sm:text-2xl font-bold mb-4">
                 3. Hosting und Infrastruktur
               </h2>
-              <p>
+              <p className="text-sm sm:text-base">
                 Unsere Website wird auf Cloudflare Pages gehostet, einem Service
                 der Cloudflare, Inc. (101 Townsend St, San Francisco, CA 94107,
                 USA). Wir verwenden zudem Cloudflare Domains, um unsere Domain
@@ -62,11 +63,11 @@ const Datenschutz = () => {
               </p>
             </section>
 
-            <section className="mb-12">
-              <h2 className="text-2xl font-bold mb-4">
+            <section className="mb-8">
+              <h2 className="text-xl sm:text-2xl font-bold mb-4">
                 4. Verwendung von Google Fonts
               </h2>
-              <p>
+              <p className="text-sm sm:text-base">
                 Diese Website nutzt Google Fonts, einen Service von Google
                 Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland.
                 Die Einbindung der Schriftarten erfolgt lokal oder über die
@@ -80,31 +81,34 @@ const Datenschutz = () => {
               </p>
             </section>
 
-            <section className="mb-12">
-              <h2 className="text-2xl font-bold mb-4">
+            <section className="mb-8">
+              <h2 className="text-xl sm:text-2xl font-bold mb-4">
                 5. Erfassung und Verarbeitung personenbezogener Daten{" "}
               </h2>
-              <p>Wir sammeln und verarbeiten keine personenbezogenen Daten.</p>
+              <p className="text-sm sm:text-base">Wir sammeln und verarbeiten keine personenbezogenen Daten.</p>
             </section>
 
-            <section className="mb-12">
-              <h2 className="text-2xl font-bold mb-4">
+            <section className="mb-8">
+              <h2 className="text-xl sm:text-2xl font-bold mb-4">
                 6. Änderungen der Datenschutzerklärung
               </h2>
-              <p>
+              <p className="text-sm sm:text-base">
                 Wir behalten uns vor, die Datenschutzerklärung zu ändern, um sie
                 an geänderte Rechtslagen oder bei Änderungen des Dienstes sowie
                 der Datenverarbeitung anzupassen. Die Nutzer werden daher
                 gebeten, sich regelmäßig über ihren Inhalt zu informieren.
               </p>
             </section>
-            <section className="mb-12">
-              <h2 className="text-2xl font-bold mb-4">7. Impressum</h2>
-              <Link to="/Impressum">zum Impressum (Link)</Link>
+
+            <section className="mb-8">
+              <h2 className="text-xl sm:text-2xl font-bold mb-4">7. Impressum</h2>
+              <Link to="/Impressum" className="text-sm sm:text-base text-blue-600 hover:underline">
+                zum Impressum (Link)
+              </Link>
             </section>
 
             <div className="text-center">
-              <p>Stand: 07.12.2024</p>
+              <p className="text-sm sm:text-base">Stand: 07.12.2024</p>
             </div>
           </div>
         </div>
